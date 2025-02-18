@@ -1,4 +1,4 @@
-package com.java.core.thread;
+package com.java.core.oops;
  class Thread implements Runnable{
 Runnable r =null;
 public Thread(){}
