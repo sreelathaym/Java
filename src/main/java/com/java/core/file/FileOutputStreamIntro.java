@@ -12,12 +12,18 @@ public class FileOutputStreamIntro {
         //if not will create new file
         //declare the data
         //byte oriented stream
-        FileOutputStream fos= new FileOutputStream("abc.txt",true);
-        //String so it will converted into byte array then it will read
-        String data ="Hello";
-        byte[] b=data.getBytes();
-        fos.write(b);
+
+        //FileOutputStream fos= new FileOutputStream("abc.txt",true);//---->append operation
+        FileOutputStream fos= new FileOutputStream("abc.txt");//default operation just create and write data
+       // FileOutputStream fos1= new FileOutputStream("abc.txt",false);//-->overwrite operation
+
+
+        //String so it  converted into byte array then it will read
+        String data ="Writing Data into abc.txt File";
+        byte[] bytes=data.getBytes();
+        fos.write(bytes);
+        System.out.println("Data transfered from java application to the target file");
         fos.close();
-        //FileOutputStream fos1= new FileOutputStream("abc.txt",false);
+
     }
 }
