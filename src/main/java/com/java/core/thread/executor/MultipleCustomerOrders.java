@@ -35,8 +35,6 @@ public class MultipleCustomerOrders {
         System.out.println(order2.get());
         System.out.println(order3.get());
         executor.shutdown();
-
-
-
     }
 }
+

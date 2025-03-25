@@ -12,9 +12,9 @@ public class FileWriterEx {
         String s= "Hello welcome to java Developer community";
 
        char[] chars= s.toCharArray();
-//Ascii value representation inside covert and transfer
+     //Ascii value representation inside covert and transfer
         fw.write(chars);
-        System.out.println("Data transfered from java application to file");
+        System.out.println("Data transferred from java application to file");
         fw.close();
 
     }

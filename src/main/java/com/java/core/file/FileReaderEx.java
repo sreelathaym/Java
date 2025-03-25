@@ -10,10 +10,12 @@ public class FileReaderEx {
         String data="";
         int val=fr.read();
         while(val != -1){
-            data = data +(char)val; //value converting into char
+            data = data +(char)val;
+            //value converting into char
             val = fr.read();
         }
         System.out.println(data);
         fr.close();
     }
 }
+
