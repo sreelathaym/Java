@@ -74,10 +74,11 @@ class LibraryRunner{
 
         //display books
         library.displayBooks();
-        System.out.println("\n now closing library");
 
+        System.out.println("\nnow closing library");
         library.closeLibrary();
-        System.out.println("\n After Closing library book object is not Existing");
+
+        System.out.println("\nAfter Closing library book object is not Existing");
          library.displayBooks();
 
 

@@ -54,7 +54,6 @@ class BankAccount{
         else{
                System.out.println("Insufficient amount in this account "+this.getAccountNumber()
                                    +" withdraw amount "+amount +" available amount "+balance+"\n");
-
            }
         else {
             System.out.println("Invalid amount in this Account "+this.getAccountNumber());
